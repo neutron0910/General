@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MatrixOperations</string>
+    <string name="Matrix2A">MATRIX A</string>
+    <string name="Matrix2B">MATRIX B</string>
+    <string name="Matrix3A">MATRIX A</string>
+    <string name="Matrix3B">MATRIX B</string>
+    <string name="Mat211">a11</string>
+    <string name="Mat213">a12</string>
+    <string name="Mat221">a21</string>
+    <string name="Mat222">a22</string>
+    <string name="Mat311">a11</string>
+    <string name="Mat312">a12</string>
+    <string name="Mat313">a13</string>
+    <string name="Mat321">a21</string>
+    <string name="Mat322">a22</string>
+    <string name="Mat323">a23</string>
+    <string name="Mat331">a31</string>
+    <string name="Mat332">a32</string>
+    <string name="Mat333">a33</string>
+    <string name="checkBox2Data">check it to return with same previous data</string>
+</resources>

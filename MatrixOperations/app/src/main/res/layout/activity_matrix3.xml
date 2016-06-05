@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sudarshan.matrixoperations.Matrix3Activity"
+    android:background="#934d4d">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:background="#712188">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Matrix3A"
+            android:id="@+id/textView6"
+            android:paddingLeft="120dp"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="#00ffee" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a11"
+            android:layout_weight="0.33"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#420d5f"
+            android:textColor="#0dff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a12"
+            android:layout_weight="0.34"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#12401f"
+            android:textColor="#0dff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a13"
+            android:layout_weight="0.33"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#1f0822"
+            android:textColor="#0dff00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a21"
+            android:layout_weight="0.33"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#12401f"
+            android:textColor="#0dff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a22"
+            android:layout_weight="0.34"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#1f0822"
+            android:textColor="#0dff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a23"
+            android:layout_weight="0.33"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#12401f"
+            android:textColor="#0dff00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a31"
+            android:layout_weight="0.33"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#1f0822"
+            android:textColor="#0dff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a32"
+            android:layout_weight="0.34"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#12401f"
+            android:textColor="#0dff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a33"
+            android:layout_weight="0.33"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:autoText="false"
+            android:background="#420d5f"
+            android:textColor="#0dff00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Matrix3B"
+            android:id="@+id/textView7"
+            android:paddingLeft="120dp"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="#00ffee"
+            android:background="#712188" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b11"
+            android:layout_weight="0.33"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#677567"
+            android:textColor="#0dff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b12"
+            android:layout_weight="0.34"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#12401f"
+            android:textColor="#0dff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b13"
+            android:layout_weight="0.33"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#1f0822"
+            android:textColor="#0dff00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b21"
+            android:layout_weight="0.33"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#12401f"
+            android:textColor="#0dff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b22"
+            android:layout_weight="0.34"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#1f0822"
+            android:textColor="#0dff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b23"
+            android:layout_weight="0.33"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#12401f"
+            android:textColor="#0dff00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b31"
+            android:layout_weight="0.33"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#1f0822"
+            android:textColor="#0dff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b32"
+            android:layout_weight="0.34"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#12401f"
+            android:textColor="#0dff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b33"
+            android:layout_weight="0.33"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:textSize="13sp"
+            android:background="#677567"
+            android:textColor="#0dff00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13"
+        android:background="#230303">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/Mat3add"
+            android:layout_weight="0.25"
+            android:src="@drawable/addition"
+            android:onClick="addMatrix3" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/Mat3substract"
+            android:layout_weight="0.25"
+            android:src="@drawable/substraction"
+            android:onClick="substractMatrix3" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/Mat3multiply"
+            android:layout_weight="0.25"
+            android:src="@drawable/multiplication"
+            android:onClick="multiplyMatrix3" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView5"
+            android:layout_weight="0.25"
+            android:src="@drawable/clear"
+            android:onClick="clear" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sudarshan.matrixoperations.ResultMatrix3Activity"
+    android:background="#11ffdb">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="The Final Result is"
+            android:id="@+id/textView8"
+            android:textSize="40sp"
+            android:textColor="#102fa9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Mat311"
+            android:id="@+id/M3a11"
+            android:layout_weight="0.33"
+            android:textSize="12sp"
+            android:textColor="#88015d" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Mat312"
+            android:id="@+id/M3a12"
+            android:layout_weight="0.33"
+            android:textSize="12sp"
+            android:textColor="#88015d" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Mat313"
+            android:id="@+id/M3a13"
+            android:layout_weight="0.34"
+            android:textIsSelectable="false"
+            android:textSize="12sp"
+            android:textColor="#88015d" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Mat321"
+            android:id="@+id/M3a21"
+            android:layout_weight="0.33"
+            android:textSize="12sp"
+            android:textColor="#88015d" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Mat322"
+            android:id="@+id/M3a22"
+            android:layout_weight="0.33"
+            android:textSize="12sp"
+            android:textColor="#88015d" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Mat323"
+            android:id="@+id/M3a23"
+            android:layout_weight="0.34"
+            android:textSize="12sp"
+            android:textColor="#88015d" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Mat331"
+            android:id="@+id/M3a31"
+            android:layout_weight="0.33"
+            android:textSize="12sp"
+            android:textColor="#88015d" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Mat332"
+            android:id="@+id/M3a32"
+            android:layout_weight="0.33"
+            android:textSize="12sp"
+            android:textColor="#88015d" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Mat333"
+            android:id="@+id/M3a33"
+            android:layout_weight="0.34"
+            android:textSize="12sp"
+            android:textColor="#88015d" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="check it to return with same previous data"
+            android:id="@+id/restoreData3"
+            android:checked="false"
+            android:textSize="20sp"
+            android:textColor="#ff0606" />
+    </LinearLayout>
+</LinearLayout>

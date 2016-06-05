@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sudarshan.matrixoperations.Matrix2Activity"
+    android:background="#6c0684"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Matrix2A"
+            android:id="@+id/textView4"
+            android:paddingLeft="120dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/M3a11"
+            android:layout_weight="0.5"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:background="#0e1022"
+            android:textColor="#44ff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/M3a12"
+            android:layout_weight="0.5"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:background="#0d1ca6"
+            android:textColor="#44ff00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/M3a21"
+            android:layout_weight="0.5"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:background="#0d1ca6"
+            android:textColor="#44ff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a22"
+            android:layout_weight="0.5"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:background="#0e1022"
+            android:textColor="#44ff00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Matrix2B"
+            android:id="@+id/textView5"
+            android:paddingLeft="120dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b11"
+            android:layout_weight="0.5"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:background="#105665"
+            android:textColor="#44ff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b12"
+            android:layout_weight="0.5"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:background="#b8118e"
+            android:textColor="#44ff00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b21"
+            android:layout_weight="0.5"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:background="#b8118e"
+            android:textColor="#44ff00" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/b22"
+            android:layout_weight="0.5"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:background="#105665"
+            android:textColor="#44ff00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/sum"
+            android:layout_weight="0.25"
+            android:src="@drawable/addition"
+            android:onClick="addMatrix" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/substraction"
+            android:layout_weight="0.25"
+            android:src="@drawable/substraction"
+            android:onClick="substractMatrix" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/multiplication"
+            android:layout_weight="0.25"
+            android:src="@drawable/multiplication"
+            android:onClick="multiplyMatrix" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:layout_weight="0.25"
+            android:src="@drawable/clear"
+            android:onClick="clear2" />
+    </LinearLayout>
+</LinearLayout>
